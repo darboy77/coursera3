@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+ul {
+  padding-top: 5px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+#title {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#div1 {
+  margin: 2%;
+}
+#div2 {
+  margin: 2%;
+}
+#div3 {
+  margin: 2%;
+}
+#collapse {
+  margin-right:10px ;
+} 
+/*########LARGE DEVICES (DESKTOP)###########*/
+@media (min-width: 992px){
+  #div1 {
+    width: 28%;
+  }
+  #div2 {
+    width: 28%;
+    float: left;
+  }
+  #div3 {
+    width: 28%;
+    clear: both;
+  }
+  #div1 h3 ,#div2 h3 ,#div3 h3  {
+    text-align: center;
+    font-style: italic;
+  }
+  #div1 p ,#div2 p , #div3 p  {
+    padding: 2%;
+    font-style: inherit;
+  }
+  #collapse {
+    display: none;
+  }
+}
+/*########MDIUM DEVICES (IPAD)###########*/
+@media (min-width: 768px) and (max-width: 991.9px){
+  #div1 {
+    width: 46%;
+  }
+  #div2 {
+    width: 46%;
+    float: left;
+  }
+  #div3 {
+    width: 96%;
+    float: left;
+  }
+  #div1 h3 ,#div2 h3 ,#div3 h3  {
+    text-align: center;
+    font-style: italic;
+  }
+  #div1 p ,#div2 p , #div3 p  {
+    padding: 2%;
+    font-style: inherit;
+  }
+  li {
+    text-align: center;
+    border: 1px solid #202020;
+  }
+}
+/*########SMALL DEVICES (MOBILE)###########*/
+@media (max-width: 767px){
+  h1 {
+    margin-bottom: 2%;
+    
+  }
+  #div1 {
+    width: 96%;
+    margin-top: 1%;
+  }
+  #div2 {
+    width: 96%;
+    float: left;
+    margin-top: 1%;
+  }
+  #div3 {
+    width: 96%;
+    float: left;
+    margin-top: 1%;
+  }
+  #div1 h3 ,#div2 h3 ,#div3 h3  {
+    text-align: center;
+    font-style: italic;
+  }
+  #div1 p ,#div2 p , #div3 p  {
+    padding: 2%;
+    font-style: inherit;
+  }
+  li {
+    text-align: center;
+    border: 1px solid #202020;
+  }
+} 
